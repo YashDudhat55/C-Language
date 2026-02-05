@@ -1,0 +1,20 @@
+#include<stdio.h>
+#include<conio.h>
+
+int main(){
+
+	clrscr();
+
+	printf("--------\n");
+	printf("|      |\n");
+	printf("R      |\n");
+	printf("N      |\n");
+	printf("W      |\n");
+	printf("|      |\n");
+	printf("--------\n");
+
+
+	getch();
+	return 0;
+
+}

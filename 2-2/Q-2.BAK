@@ -1,0 +1,19 @@
+#include<conio.h>
+#include<stdio.h>
+#define pf printf
+
+int main(){
+
+	float l,area;
+
+	clrscr();
+
+	pf("Enter radius of a square : ");
+	scanf("%f",&l);
+
+	area = l * l;
+
+	pf("Area of square = %.2f",area);
+
+	getch();
+}
