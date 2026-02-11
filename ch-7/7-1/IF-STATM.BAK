@@ -33,8 +33,5 @@ int main(){
 		pf("Number is odd");
 	}
 
-
-
-
 	getch();
 }
