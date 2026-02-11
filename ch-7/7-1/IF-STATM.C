@@ -1,0 +1,24 @@
+#include<conio.h>
+#include<stdio.h>
+#define pf printf
+
+int main(){
+
+	int age;
+
+	clrscr();
+
+	pf("Enter your age : ");
+	scanf("%d",&age);
+
+	if(age >= 18)
+	{
+		pf("you are able to vote!!");
+	}
+	else{
+		pf("You cannot vot!!");
+	}
+
+
+	getch();
+}
