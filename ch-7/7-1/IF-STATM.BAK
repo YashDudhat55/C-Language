@@ -4,7 +4,7 @@
 
 int main(){
 
-	int age;
+	int age, num;
 
 	clrscr();
 
@@ -17,8 +17,23 @@ int main(){
 	}
 	else{
 		pf("You cannot vot!!");
+	}
+
+	//odd and even
+
+	pf("\nEnter any value : ");
+	scanf("%d",&num);
+
+	if (num % 2 == 0){
+		pf("The value is even");
 
 	}
+
+	else{
+		pf("Number is odd");
+	}
+
+
 
 
 	getch();
