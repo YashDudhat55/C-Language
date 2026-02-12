@@ -1,0 +1,27 @@
+#include<conio.h>
+#include<stdio.h>
+#define pf printf
+
+	int num;
+int main(){
+
+	clrscr();
+
+	pf("Enter any number : ");
+	if(scanf("%d", &num) != 1){
+		pf("Only number please....");
+	}
+
+	else if(num > 0){
+		pf("The number is positive...");
+	}
+
+	else if(num < 0){
+		pf("The number is negative...");
+	}
+	else if(num == 0){
+		pf("The number is nuteral...");
+	}
+
+	getch();
+}
