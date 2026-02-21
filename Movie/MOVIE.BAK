@@ -4,9 +4,10 @@
 
 
 	char name;
+
 	long int num;
-	int  age, type, choice, tikits;
-	float price, total;
+	int  age, types, type, choice, tikits;
+	int price, total;
 
 main(){
 
@@ -37,6 +38,7 @@ main(){
 		case 1:
 			clrscr();
 			pf("\n\n---HOLLYWOOD MOVIES---\n\n");
+
 			pf("Enter 1 For Dangal\n");
 			pf("Enter 2 For Pathaan\n");
 			pf("Enter 3 For 3 Idiots\n");
@@ -77,6 +79,7 @@ main(){
 		case 2:
 			clrscr();
 		pf("---BOLLYWOOD MOVIES---\n\n");
+
 			pf("Enter 1 For Avtar\n");
 			pf("Enter 2 For Titanic\n");
 			pf("Enter 3 For Avengers-Endgame\n");
@@ -195,11 +198,69 @@ main(){
 
 			case 6:
 				pf("\nYour Movie Before Sunrise Is Selected.....");
-				break;
+			break;
+		clrscr();
 
 	}
 	break;
 	}
+
+	pf("\n\n=====WHICH TYPE TIKITS YOU WANT=====");
+
+	pf("\n\nPress 1 For Bronze Tikit Price = 150");
+	pf("\nPress 2 For Silver Tikit Price = 200");
+	pf("\nPress 3 For Gold Tikit Price = 250");
+	pf("\nPress 4 For Dimond Tikit Price = 340");
+	pf("\nPress 5 For Heroic Tikit Price = 400");
+	pf("\nPress 6 For Platinum Tikit Price = 550");
+
+	pf("\n\nPlease Enter Your Choice : ");
+	scanf("%d",&types);
+
+	pf("\nPlease Enter How Many Tikits You Want : ");
+	scanf("%d",&tikits);
+
+	switch(types){
+
+		case 1:
+			price = 150;
+		break;
+
+		case 2:
+			price = 200;
+		break;
+
+		case 3:
+			price = 250;
+		break;
+
+		case 4:
+			price = 340;
+		break;
+
+		case 5:
+			price = 400;
+		break;
+		case 6:
+			price = 550;
+		break;
+
+	}
+
+	total = price * tikits;
+
+	pf("\n\n----Tikit Details-----\n\n");
+
+	pf("\nTotal Tikits : %d",tikits);
+	pf("\nType Of Tikit : %d",types);
+	pf("\n----------------------------");
+
+
+
+
+
+
+
 
 	getch();
 
