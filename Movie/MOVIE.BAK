@@ -3,7 +3,7 @@
 #define pf printf
 
 
-	char name;
+	long char name;
 
 	long int num;
 	int  age, types, type, choice, tikits;
@@ -199,7 +199,7 @@ main(){
 			case 6:
 				pf("\nYour Movie Before Sunrise Is Selected.....");
 			break;
-		clrscr();
+
 
 	}
 	break;
@@ -256,12 +256,16 @@ main(){
 	pf("\n----------------------------");
 
 
-
-
-
-
-
+	pf("\n\n================================");
+	pf("\n\tThe FInla Detail");
+	pf("\nYour Name : %lc",name);
+	pf("\nYour Age : %d",age);
+	pf("\nYour Mobile Number : %ld",num);
+	pf("\nYour Your Final Pament : %d",total);
 
 	getch();
-
 }
+
+
+
+
