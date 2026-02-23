@@ -3,7 +3,7 @@
 #define pf printf
 
 
-	long char name;
+	char name[50];
 
 	long int num;
 	int  age, types, type, choice, tikits;
@@ -13,7 +13,11 @@ main(){
 
 	clrscr();
 
-	pf("=========WELCOME=========\n\n\n");
+	pf("==============================\n\n");
+
+	pf("\tWelcom To INOX Cinema\n\n");
+
+	pf("==============================\n\n\n");
 
 	pf("\nEnter Your Name : ");
 	scanf("%s",&name);
@@ -258,7 +262,8 @@ main(){
 
 	pf("\n\n================================");
 	pf("\n\tThe FInla Detail");
-	pf("\nYour Name : %lc",name);
+	pf("\n\n================================");
+	pf("\nYour Name : %s",name);
 	pf("\nYour Age : %d",age);
 	pf("\nYour Mobile Number : %ld",num);
 	pf("\nYour Your Final Pament : %d",total);
