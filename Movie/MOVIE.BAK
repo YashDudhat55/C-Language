@@ -28,7 +28,11 @@ main(){
 	pf("\nEnter Your Number : ");
 	scanf("%ld",&num);
 
+	clrscr();
+
+	pf("\n-----------------------------------");
 	pf("\n\nCHUSE YOUR MOVIE'S CHOICE\n\n");
+	pf("-------------------------------------\n");
 
 	pf("Enter 1 For Hollywood Movie\n");
 	pf("Enter 2 For Bollywood Movie\n");
@@ -41,7 +45,11 @@ main(){
 	switch(type){
 		case 1:
 			clrscr();
+			pf("\n------------------------------");
+
 			pf("\n\n---HOLLYWOOD MOVIES---\n\n");
+
+			pf("-------------------------------\n");
 
 			pf("Enter 1 For Dangal\n");
 			pf("Enter 2 For Pathaan\n");
@@ -82,7 +90,12 @@ main(){
 
 		case 2:
 			clrscr();
+		pf("\n----------------------------");
+
 		pf("---BOLLYWOOD MOVIES---\n\n");
+
+		pf("------------------------------\n");
+
 
 			pf("Enter 1 For Avtar\n");
 			pf("Enter 2 For Titanic\n");
@@ -124,7 +137,12 @@ main(){
 	break;
 		case 3:
 			clrscr();
+
+			pf("\n------------------------------");
+
 			pf("---COMADY MOVIES---\n\n");
+
+			pf("------------------------------\n");
 
 			pf("Enter 1 For Kung Fu Hustle\n");
 			pf("Enter 2 For Shaolin Soccer\n");
@@ -166,7 +184,12 @@ main(){
 			break;
 		case 4:
 			clrscr();
-			pf("---LOVE MOVIES---\n\n");
+
+			pf("\n-------------------------\n");
+
+			pf("\n---LOVE MOVIES---\n\n");
+
+			pf("-------------------------\n");
 
 			pf("Enter 1 For Me Before You\n");
 			pf("Enter 2 For A Moment To Remember\n");
@@ -205,11 +228,17 @@ main(){
 			break;
 
 
+
 	}
 	break;
 	}
+	clrscr();
 
-	pf("\n\n=====WHICH TYPE TIKITS YOU WANT=====");
+	pf("----------------------------------------\n");
+
+	pf("\n\n=====WHICH TYPE TIKITS YOU WANT=====\n");
+
+	pf("----------------------------------------\n");
 
 	pf("\n\nPress 1 For Bronze Tikit Price = 150");
 	pf("\nPress 2 For Silver Tikit Price = 200");
@@ -253,15 +282,16 @@ main(){
 
 	total = price * tikits;
 
-	pf("\n\n----Tikit Details-----\n\n");
+	pf("\n\n----Ticket Details-----\n\n");
 
 	pf("\nTotal Tikits : %d",tikits);
 	pf("\nType Of Tikit : %d",types);
 	pf("\n----------------------------");
 
+	clrscr();
 
 	pf("\n\n================================");
-	pf("\n\tThe FInla Detail");
+	pf("\n\tThe FInal Ticket");
 	pf("\n\n================================");
 	pf("\nYour Name : %s",name);
 	pf("\nYour Age : %d",age);
@@ -270,7 +300,3 @@ main(){
 
 	getch();
 }
-
-
-
-
