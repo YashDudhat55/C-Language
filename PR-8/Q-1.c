@@ -1,4 +1,5 @@
 #include <stdio.h>
+#define pf printf
 
 int main()
 {
@@ -6,7 +7,7 @@ int main()
     char *p;
     int count = 0;
 
-    printf("Enter any string : ");
+    pf("Enter any string : ");
     scanf("%[^\n]s", input);
 
     p = input;
@@ -16,7 +17,7 @@ int main()
         count++;
     }
 
-    printf("\nTotal length : %d\n", count);
+    pf("\nTotal length : %d\n", count);
 
     return 0;
 }
